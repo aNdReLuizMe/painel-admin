@@ -25,7 +25,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->sidebarCollapsibleOnDesktop()
-            ->font('Lexend Mega')
+            ->font('Afacad')
             ->id('admin')
             ->path('admin')
             ->login()
