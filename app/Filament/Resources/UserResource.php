@@ -52,7 +52,7 @@ class UserResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->label('Criado em')
-                    ->dateTime('d/m/Y - H:i')
+                    ->dateTime('d/m/Y - H:i:s')
                     ->sortable()
             ])
             ->filters([
