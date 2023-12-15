@@ -28,8 +28,8 @@ class AppServiceProvider extends ServiceProvider
                     'en' => 'USA english (EN)',
                 ])
                 ->flags([
-                    'pt_BR' => asset('/storage/flags/brazil.svg'),
-                    'en' => asset('/storage/flags/usa.svg'),
+                    'pt_BR' => asset('/storage/flags/br.svg'),
+                    'en' => asset('/storage/flags/us.svg'),
                 ])
                 ->circular()
                 ->visible(outsidePanels: true);
